@@ -7,6 +7,7 @@ You have an hour to complete this. We don't expect you to complete the exercise 
 ## Technical details
 
 ### API
+
 You will need to use the following URLs to fetch the films and genres from `the movie db` API:
 
 movies - [https://api.themoviedb.org/3/movie/now_playing?api_key=d432b933ecc6d5642d8d2befbc40c7ac&language=en-US&page=1](https://developers.themoviedb.org/3/movies/get-now-playing)
@@ -18,3 +19,7 @@ genres - [https://api.themoviedb.org/3/genre/movie/list?api_key=d432b933ecc6d564
 The API will provide part of the image url via the `poster_path` field of each film. It must be combined with the base image path `https://image.tmdb.org/t/p/w500/`
 
 **Have fun!**
+
+**Completed screen recording**
+
+![Screen recording](https://github.com/Arturas-V/fika-frontend-exercise/blob/master/screen-record.gif)
